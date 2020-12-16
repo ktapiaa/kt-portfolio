@@ -1,23 +1,25 @@
-.navigationBar{
-   color: black;
-}
-
 h1{
    text-align: center;
    font-family:'Courier New', Courier, monospace;
-   font-size: 100px;
    border-bottom: -100px;
    margin-bottom: -50px;
+   color: #0c1713;
+   text-decoration: underline;
+   
 }
 
-
-
-h2{
+.contact{
+   font-size: 35px;
+   font-family: 'Source Code Pro', monospace;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
    text-align: center;
-   border-top: -100px;
-   margin-top: -50px;
+   text-decoration: underline;
+   border: solid 3px;
 }
 
+p2{
+   font-size: 25px;
+}
 
 
 .selfie {
@@ -29,19 +31,81 @@ h2{
 
  .row{
     padding: 50px;
+    text-align: center;
+    align-content: center;
  }
 
-.myName{
-   font-size: 60px;
-   font-weight: 600;
+.name{
+   font-size: 70px;
+   font-weight: 550;
+
 }
 
 form{
    text-align: center;
    padding: 100px; 
+   
 }
 
-#cards #projects{
-   border-color: blue;
-   border-width: 50px;
+.card {
+   border-color: black;
+   border-width: 20px;
+   font-family: 'Source Code Pro', monospace;
+   font-size: 10px;
+   font-weight: 500;
+   margin: 0 auto; 
+   float: none; 
+   margin-bottom: 10px; 
+
+}
+
+.card-title{
+   font-size: 30px;
+   text-decoration: underline;
+
+}
+
+#about{
+   font-size: 35px;
+   font-family: 'Source Code Pro', monospace;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   text-align: center;
+   text-decoration: underline;
+   border: solid 3px;
+   margin-left: 107px;
+   margin-right: 107px;
+}
+
+.container{
+   font-family: 'Source Code Pro', monospace;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 22px;
+
+ 
+}
+
+.quote{
+   font-family: 'Shadows Into Light', cursive;
+   color:white;
+   font-weight: 600;
+   font-size: 50px;
+   background-image: url(https://photoresearch.beethomas.com/wp-content/main/2011_10/DSC_0356.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity:0.75 ;
+   position: relative;
+}
+
+
+p{
+   font-size: 35px;
+}
+
+.footer{
+   color:white;
+}
+
+#sig{
+   color:white;
+   font-size: 20px;
 }
