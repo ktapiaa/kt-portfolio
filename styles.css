@@ -2,6 +2,16 @@ body{
    /* background-color: #0c1713 !important; */
    background-color: #d9d0de !important;
 }
+
+.navbar-collapse {
+    background-color: #d9d0de;
+}
+
+nav.navbar {
+   background: #0c1713;
+   color: #d9d0de;}
+   
+
 h1{
    text-align: center;
    font-family:'Courier New', Courier, monospace;
