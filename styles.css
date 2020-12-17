@@ -1,3 +1,7 @@
+body{
+   /* background-color: #0c1713 !important; */
+   background-color: #d9d0de !important;
+}
 h1{
    text-align: center;
    font-family:'Courier New', Courier, monospace;
@@ -24,6 +28,7 @@ p2{
 
 .selfie {
    border-radius: 50%;
+   border: 10px dashed #d9d0de;
    display: block;
    margin-left: auto;
    margin-right: auto;   
@@ -38,6 +43,7 @@ p2{
 .name{
    font-size: 70px;
    font-weight: 550;
+   color: #0c1713;
 
 }
 
@@ -49,6 +55,7 @@ form{
 
 p.card-text{
    font-size:20px;
+   color:#0c1713;
 }
 
 .cards {
@@ -79,21 +86,22 @@ p.card-text{
    border: solid 3px;
    margin-left: 107px;
    margin-right: 107px;
+   color: #0c1713;
 }
 
 .container{
    font-family: 'Source Code Pro', monospace;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 22px;
-
+color: #0c1713;
  
 }
 
 .quote{
    font-family: 'Shadows Into Light', cursive;
-   color:white;
    font-weight: 600;
    font-size: 50px;
+   color:black;
    /* background-image: url(https://photoresearch.beethomas.com/wp-content/main/2011_10/DSC_0356.jpg); */
    background-color: #0c1713;
    background-repeat: no-repeat;
@@ -105,22 +113,61 @@ font-size: 22px;
 
 p{
    font-size: 35px;
+   color:white;
 }
 
 #signature{
-   color:white;
    font-size: 20px;
+   margin-left: 60px;
+   padding-bottom: 20px;
 }
 
 .quote-body{
    color:white;
    font-size: 20px;
+   margin-left: 30px;
 }
 
 .footer{
    font-size:20px;
    text-align: center;
-   background-color:#d9d0de;
+   background-color:#0c1713;
    padding-block: 20px;
-   color:black;
+   color:white;
+}
+
+#theForm{
+   position: relative;
+   margin: 50px 50px 100px 50px;
+   font-family: 'Source Code Pro', monospace;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    margin: auto;    
+    color:#0c1713;      
+}
+
+.form-row{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h2{
+   color:#0c1713;
+}
+
+p2{
+   color:#0c1713;
+}
+
+#button{
+   background-color: #0c1713;
+   color:#d9d0de;
+   border: 1px solid;
+}
+
+#button:hover{
+   background-color:#d9d0de ;
+   color: #0c1713 ;
+   border-width: 5px;
+   box-shadow: 5px 5px 5px 5px;
 }
