@@ -1,183 +1,184 @@
-body{
-   /* background-color: #0c1713 !important; */
-   background-color: #d9d0de !important;
+body {
+  /* background-color: #0c1713 !important; */
+  background-color: #d9d0de !important;
 }
 
-.navbar-collapse {
-    background-color: #d9d0de;
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: -100px;
+  margin-bottom: -50px;
+  color: #0c1713;
+  text-decoration: underline;
 }
 
-nav.navbar {
-   background: #0c1713;
-   color: #d9d0de;}
-   
-
-h1{
-   text-align: center;
-   font-family:'Courier New', Courier, monospace;
-   border-bottom: -100px;
-   margin-bottom: -50px;
-   color: #0c1713;
-   text-decoration: underline;
-   
+.contact {
+  font-size: 35px;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  border: solid 3px;
 }
 
-.contact{
-   font-size: 35px;
-   font-family: 'Source Code Pro', monospace;
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   text-align: center;
-   text-decoration: underline;
-   border: solid 3px;
+p2 {
+  font-size: 25px;
 }
-
-p2{
-   font-size: 25px;
-}
-
 
 .selfie {
-   border-radius: 50%;
-   border: 10px dashed #d9d0de;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;   
- }
-
- .row{
-    padding: 50px;
-    text-align: center;
-    align-content: center;
- }
-
-.name{
-   font-size: 70px;
-   font-weight: 550;
-   color: #0c1713;
-
+  border-radius: 50%;
+  border: 10px dashed #d9d0de;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-form{
-   text-align: center;
-   padding: 100px; 
-   
+.row {
+  padding: 50px;
+  text-align: center;
+  align-content: center;
 }
 
-p.card-text{
-   font-size:20px;
-   color:#0c1713;
+.name {
+  font-size: 70px;
+  font-weight: 550;
+  color: #0c1713;
+}
+
+form {
+  text-align: center;
+  padding: 50px;
+}
+
+p.card-text {
+  font-size: 20px;
+  color: #0c1713;
 }
 
 .cards {
-   border-color: black;
-   border-width: 50px;
-   font-family: 'Source Code Pro', monospace;
-   font-size: 10px;
-   font-weight: 250;
-   margin: 0 auto; 
-   float: none;
-   margin-left: 100px;
-   margin-right: 100px;;
+  border-color: black;
+  border-width: 50px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 10px;
+  font-weight: 250;
+  margin: 0 auto;
+  float: none;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.card-title{
-   font-size: 30px;
-   text-decoration: underline;
+.card-title {
+  font-size: 30px;
+  text-decoration: underline;
 }
 
-
-
-#about{
-   font-size: 35px;
-   font-family: 'Source Code Pro', monospace;
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   text-align: center;
-   text-decoration: underline;
-   border: solid 3px;
-   margin-left: 107px;
-   margin-right: 107px;
-   color: #0c1713;
+#about {
+  font-size: 35px;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  border: solid 3px;
+  margin-left: 107px;
+  margin-right: 107px;
+  color: #0c1713;
 }
 
-.container{
-   font-family: 'Source Code Pro', monospace;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 22px;
-color: #0c1713;
- 
+.container {
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+  color: #0c1713;
 }
 
-.quote{
-   font-family: 'Shadows Into Light', cursive;
-   font-weight: 600;
-   font-size: 50px;
-   color:black;
-   /* background-image: url(https://photoresearch.beethomas.com/wp-content/main/2011_10/DSC_0356.jpg); */
-   background-color: #0c1713;
-   background-repeat: no-repeat;
-   background-size: cover;
-   opacity:0.75 ;
-   position: relative;
+p {
+  font-size: 35px;
+  color: white;
 }
 
-
-p{
-   font-size: 35px;
-   color:white;
+#signature {
+  font-size: 20px;
+  padding-left: 20px;
 }
 
-#signature{
-   font-size: 20px;
-   margin-left: 60px;
-   padding-bottom: 20px;
+.quote-body {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-size: 50px;
+  background: linear-gradient(45deg, #08060a, #fbfafc00);
+  background-repeat: repeat;
+  background-size: cover;
+  color: #d9d0de;
+  margin-left: -100px;
+  width: 1349px;
 }
 
-.quote-body{
-   color:white;
-   font-size: 20px;
-   margin-left: 30px;
+.footer {
+  font-size: 20px;
+  text-align: center;
+  background-color: #0c1713;
+  padding-block: 20px;
+  color: white;
+  margin-top: 5px;
 }
 
-.footer{
-   font-size:20px;
-   text-align: center;
-   background-color:#0c1713;
-   padding-block: 20px;
-   color:white;
+.column {
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+  color: #0c1713;
+  text-align: center;
 }
 
-#theForm{
-   position: relative;
-   margin: 50px 50px 100px 50px;
-   font-family: 'Source Code Pro', monospace;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px;
-    margin: auto;    
-    color:#0c1713;      
+.theForm {
+  align-self: center;
 }
 
-.form-row{
-   margin-left: auto;
-   margin-right: auto;
+.contactForm {
+  position: absolute;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  margin: auto;
+  color: #0c1713;
+  text-align: center;
 }
 
-h2{
-   color:#0c1713;
+h2 {
+  color: #0c1713;
 }
 
-p2{
-   color:#0c1713;
+p2 {
+  color: #0c1713;
+  font-size: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-#button{
-   background-color: #0c1713;
-   color:#d9d0de;
-   border: 1px solid;
+#button {
+  background-color: #0c1713;
+  color: #d9d0de;
+  border: 1px solid;
 }
 
-#button:hover{
-   background-color:#d9d0de ;
-   color: #0c1713 ;
-   border-width: 5px;
-   box-shadow: 5px 5px 5px 5px;
+#button:hover {
+  background-color: #d9d0de;
+  color: #0c1713;
+  border-width: 5px;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.res-button {
+  background-color: #0c1713;
+  color: #d9d0de;
+  border: 1px solid;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.res-button:hover {
+  background-color: #d9d0de;
+  color: #0c1713;
+  border-width: 5px;
+  box-shadow: 5px 5px 5px 5px;
 }

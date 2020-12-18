@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light> 
+    <nav class="navbar navbar-light"> 
       <a class="navbar-brand">KT
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
@@ -47,7 +47,7 @@
    <br>
     <!--HEADER-->
     
-    <h1 div class= "name">K  E  N  D  R  A</div>
+    <h1 div class= "name">K  E  N  D  R  A
    </h1>
     <br>
    <img src="./images/avatar.jpg" alt="Avatar" class="selfie" width="250" height="250">
@@ -60,7 +60,6 @@
     <a href="#ContactMe">Contact Me</a>
     </center> 
 
-
  <!--CARDS-->
  <div class= "cards">
    <span id="Projects">
@@ -70,7 +69,7 @@
           <div class="card">
             <a href="https://codepen.io/ktapiaa/pen/qBNLaEG" target="_blank"><img src="./images/cssCreature.JPG" width="500px"  height="200" margin="auto" class="card-img-top" alt="cssCreature" ></a>
             <div class="card-body">
-              <h5 class="card-title" >CSS Creature</h5></a>
+              <h5 class="card-title" >CSS Creature</h5>
               <p class="card-text"><br>CSS Creature created using CSS and HTML elements. <br><br> Created: Nov 2020</p>
             </div>
           </div>
@@ -103,70 +102,67 @@
           </div>
         </div>
       </div>
-      </div>
     </span>
 
      <!-- ABOUT --> 
-     <span id="About"><div id="about">ABOUT ME</div>
-  <div class="container"> 
-    <div class="row">
-      <div class="col-sm-6">
+  <div id="about"> <span id="About">ABOUT ME</span></div>
+    <div class="container"> 
+      <div class="row">
+        <div class="col-sm-6">
         Born in Texas only a few years ago, I was. Moved to Indianapolis, IN in 2007 due to a family illness and never moved back. Graduated from Crispus Attucks Medical Magnet High School in '2011' and moved to Bloomington, IN shortly thereafter to study Interior Design. After a few years there, I finally moved back to Indianapolis to work for The Latino Coalition Against Domestic & Sexual Violence. 
-      </div>
+        </div>
       <div class="col-sm-6">
         A not-for-profit organization that, as the name suggests, assists Latin@ victims of violence. I started my carrer there as a 'bilingual advocate' but shortly transitioned to a 'bilingual liason'. I had the oportunity to teach basic Microsoft classes in Spanish to the grassroot communities of Indianapolis. After a few years I met some representatives from a bank that were seeking bilingual people to work and be able to reach out to the Latino community. Seeing that my passion is to help the Latino community, I felt it was the right choice. 
       </div>
     </div>
-    <br>
-    <br>
-        </div>
-      </div>
   </div>
-</span>
+    
+    <form method="get" action="./myResume.pdf" target="_blank">
+      <button type="submit" class="res-button">View Resume</button>
+  </form>
 
-
+    <br>
+    <br>
+  
 <!--QUOTE-->
-<div class="quote" style="font-size: 100px;" >
-  <div class="card-header">
-  </div>
+
   <div class="quote-body">
-    <blockquote class="blockquote mb-0">
+    <blockquote class="blockquote mb-0" >
       <p>The world is a book and those who do not travel read only one page.</p>
+
       <div class="blockquote-footer" div id="signature">St. Augustine </div>
     </blockquote>
   </div>
-</div>
+
+
 
 
 
   <!-- CONTACT INFO -->
   
   <span id="ContactMe">
-  <form
-  action="https://formspree.io/f/mzbkaznv"
-  method="POST">
-<h2>
-<div class="contact" style="text-align:center">
-  Contact Me</h2>
-  <p2>Leave me a message:</p2>
-</div>
-<div id="theForm">
-<div class="form-row">
-  <div class="column">
+    <form
+    action="https://formspree.io/f/mzbkaznv"
+    method="POST">
+  <h2>
+  <div class="contact" style="text-align:center">
+    Contact Me</h2>
+    <p2>Leave me a message:</p2>
   </div>
-  <div class="column">
-    <form action="/action_page.php">
-      <label for="fname">Name:</label>
-      <input style="width: 500px;" type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-      <label for="lname">Email:</label>
-      <input style="width: 500px;" type="text" id="email" name="email" placeholder="Your email.."><br>
-      <label for="subject">Message:</label>
-      <input style="width: 482px;" type="text" textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" ></textarea><br>
-      <input type="submit" id="button" value="Submit">
-    </form>
-  </div>
-</div>
-</div></div>
+  
+  
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Name:</label>
+        <input style="width: 500px;" type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <label for="lname">Email:</label>
+        <input style="width: 500px;" type="text" id="email" name="email" placeholder="Your email.."><br>
+        <label for="subject">Message:</label>
+        <input style="width: 482px;" type="text" textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" ></textarea><br>
+        <input type="submit" id="button" value="Submit">
+      </form>
+    </div>
+ 
 
 
 <div class="footer">© Kendra Tapia 2020</div>
