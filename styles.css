@@ -1,6 +1,9 @@
 body {
   /* background-color: #0c1713 !important; */
-  background-color: #d9d0de !important;
+  background-color: #d9d0de;
+  background-image: url(https://i.pinimg.com/736x/ee/1f/74/ee1f742ac0be0e0219004a7ff9695259.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -93,13 +96,14 @@ p.card-text {
 }
 
 p {
-  font-size: 25px;
+  font-size: 35px;
+  margin-left: 50px;
   color: white;
 }
 
 #signature {
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 75px;
 }
 
 .quote-body {
