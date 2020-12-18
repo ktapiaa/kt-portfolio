@@ -31,6 +31,7 @@ p2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
 }
 
 .row {
@@ -92,7 +93,7 @@ p.card-text {
 }
 
 p {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
@@ -104,7 +105,6 @@ p {
 .quote-body {
   font-family: "Shadows Into Light", cursive;
   font-weight: 600;
-  font-size: 50px;
   background: linear-gradient(45deg, #08060a, #fbfafc00);
   background-repeat: repeat;
   background-size: cover;
@@ -159,6 +159,7 @@ p2 {
   background-color: #0c1713;
   color: #d9d0de;
   border: 1px solid;
+  margin: 15px;
 }
 
 #button:hover {
